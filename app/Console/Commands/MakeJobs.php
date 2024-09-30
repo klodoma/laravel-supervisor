@@ -30,8 +30,8 @@ class MakeJobs extends Command
             dispatch(new \App\Jobs\FailJob());
         }
 
-        foreach (range(1, 10) as $i) {
-            dispatch(new \App\Jobs\SucessJob());
-        }
+        // foreach (range(1, 10) as $i) {
+        //     dispatch(new \App\Jobs\SucessJob());
+        // }
     }
 }
